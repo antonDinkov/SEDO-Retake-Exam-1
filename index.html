@@ -11,8 +11,15 @@
 <body data-version="1.0">
   <div class="app">
     <h1>Color Changer</h1>
+
     <input id="color-input" type="text" placeholder="Enter color (e.g. #ff0000)">
     <button id="apply-btn">Apply Color</button>
+    <button id="random-btn">Random Color</button>
+
+    <button hidden aria-hidden="true" id="rnd-spacer" title="Commit 2 placeholder"></button>
+
+    <p class="rand-hint">Tip: click “Random Color”.</p>
+    
     <div id="box"></div>
 
     <p class="hint">You can type a named color or #hex.</p>
