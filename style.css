@@ -39,6 +39,7 @@ body {
 #random-btn:hover {
   background: #eee;
   border-color: #666
+}
 
 #apply-btn:active {
   transform: scale(.98)
